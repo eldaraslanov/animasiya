@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aa{
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: relative;
+    animation: anima 10s infinite;
+  
+
+
+}
+@keyframes anima{
+    0%{
+        top: 0;
+        left: 0;
+        background: yellow;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background: red;
+        transform: rotateX(180deg)
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+        background: hotpink;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+        background: salmon;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+
+}
